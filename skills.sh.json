@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Dependency Management",
+      "description": "Skills for auditing and updating project dependencies.",
+      "skills": ["dep-updater"]
+    }
+  ]
+}
