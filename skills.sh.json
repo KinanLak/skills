@@ -3,9 +3,20 @@
   "notGrouped": "bottom",
   "groupings": [
     {
+      "title": "Agent Workflow",
+      "description": "Skills for preparing repositories for coding agents, verifying their work in a browser, and keeping what they learn.",
+      "skills": [
+        "agent-ready",
+        "browser-verify",
+        "retex"
+      ]
+    },
+    {
       "title": "Dependency Management",
       "description": "Skills for auditing and updating project dependencies.",
-      "skills": ["dep-updater"]
+      "skills": [
+        "dep-updater"
+      ]
     }
   ]
 }
