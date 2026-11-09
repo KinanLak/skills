@@ -60,6 +60,9 @@ leave a placeholder or a section that says nothing.
   `.claude/skills -> ../.agents/skills`:
   [references/test-skill.md](references/test-skill.md). Only for a project
   with a UI.
+- `.agents/skills/pull-request/SKILL.md` when delivery goes through pull
+  requests: how to write one, attach captures, and handle its review and
+  checks: [references/pull-request-skill.md](references/pull-request-skill.md).
 - CI: the same gate as the local `verify` command, a secret scan over the
   whole history, and a dependency audit. A PR template with Problem, Change,
   Scope, Verification.

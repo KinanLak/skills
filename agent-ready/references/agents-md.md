@@ -26,10 +26,9 @@ Aim for under 250 lines; move a long topic to `docs/` and link it.
    is verified with the `browser-verify` skill.
 8. **Documentation**: where decisions go (ADRs, never rewritten), what is
    frozen, and "never commit plans or scratch notes".
-9. **Git and delivery**: from the user's answer. Branch naming, draft PR
-   after the first commit, commit subjects (conventional, no trailers), what
-   must be green before ready, the review loop, waiting with
-   `watch_pull_request` instead of polling, and exactly who merges and how.
-10. **Writing a pull request**: language, a title that states the effect,
-    Problem / Change / Scope / Verification, screenshots for visible changes
-    uploaded to the PR and never committed.
+9. **Git and delivery**: from the user's answer, only the rules every session
+   needs: never commit on `main`, a draft pull request after the first
+   commit, commit subjects (conventional, no trailers), what must be green
+   before ready, and exactly who merges and how. Writing the pull request,
+   its captures and its review loop belong in the `pull-request` skill
+   ([pull-request-skill.md](pull-request-skill.md)); point to it in one line.
